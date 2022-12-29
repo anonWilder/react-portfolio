@@ -35,6 +35,7 @@ header{
     gap: 1.2rem;
 }
 
+
 .header__socials{
     position: absolute;
     left: 0;
@@ -61,14 +62,15 @@ header{
 }
 
 /* MEDIA QUERIES (tablets */
-@media screen and (max-wdith: 1024px){
+@media screen and (max-width: 1024px){
     header{
         margin-top: 0;
         height: 100vh;
     }
 }
-@media screen and (max-wdith: 600px){
-        .header{
+/* MEDIA QUERIES FOR phones */
+@media screen and (max-width: 600px){
+        .header__profile{
             width: 14rem;
             height: 17rem;
             max-width: 60%;
@@ -83,7 +85,7 @@ header{
             gap: 1rem;
         }
 
-        .header__socials {
+        .header__socials{
             display: none;
         }
     }

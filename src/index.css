@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     border: 0;
@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 
-:root{
+:root {
     --primary-hue: 270;
     --black-lightness: 15%;
     --dark-lightness: 44%;
